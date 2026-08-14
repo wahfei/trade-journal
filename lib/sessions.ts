@@ -47,7 +47,7 @@ export const SESSIONS: SessionDef[] = [
 		key: "test",
 		name: "Test Session",
 		city: "United States",
-		startUtc: 12.45 * 60,
+		startUtc: 12.5 * 60,
 		endUtc: 12.55 * 60,
 		color: "var(--chart-1)",
 	},
