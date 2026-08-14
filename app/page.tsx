@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect } from "react";
 import { SessionIndicator } from "@/components/session-indicator";
 import { StatsOverview } from "@/components/stats-overview";
 import { TradeForm } from "@/components/trade-form";
@@ -10,6 +10,7 @@ import { computeStats } from "@/lib/stats";
 import { useTrades } from "@/lib/use-trades";
 import { Plus, X } from "lucide-react";
 import clsx from "clsx";
+
 
 export default function Page() {
 	const { trades, loaded, addTrade, deleteTrade, clearAll } = useTrades();

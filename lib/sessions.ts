@@ -43,6 +43,14 @@ export const SESSIONS: SessionDef[] = [
 		endUtc: 21 * 60,
 		color: "var(--chart-1)",
 	},
+	{
+		key: "test",
+		name: "Test Session",
+		city: "United States",
+		startUtc: 12.5 * 60,
+		endUtc: 12.55 * 60,
+		color: "var(--chart-1)",
+	},
 ];
 
 export interface SessionStatus {
